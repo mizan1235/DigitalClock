@@ -14,7 +14,7 @@ setInterval(() => {
 
     //d = new Date()
  //   date.innerHTML = "huyt"
-   // date = document.getElementById('date')
-   // date.innerHTML = d;
+    date = document.getElementById('date')
+    date.innerHTML = d;
 }, 1000);
 
