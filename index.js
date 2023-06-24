@@ -12,8 +12,8 @@ setInterval(() => {
     minute.style.transform = `rotate(${mrotation}deg)`;
     second.style.transform = `rotate(${srotation}deg)`;
 
-    //d = new Date()
- //   date.innerHTML = "huyt"
+    d = new Date()
+    date.innerHTML = "huyt"
     date = document.getElementById('date')
     date.innerHTML = d;
 }, 1000);
